@@ -30,7 +30,7 @@ spec:
         description: Manage customer profiles
   source:
     git:
-      url: https://github.com/ykhadilkar/java-rest-service.git
+      url: https://github.com/ykhadilkar/customer-profile.git
       ref:
         branch: main
   # serviceClaims:
