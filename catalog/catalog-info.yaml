@@ -8,5 +8,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: default-team
+  system: customer
   providesApis:
     - customer-profile
