@@ -1,6 +1,6 @@
 package com.example.customerprofile.domain;
 
-import javax.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotBlank;
 
 public class CustomerProfileResponse {
 
