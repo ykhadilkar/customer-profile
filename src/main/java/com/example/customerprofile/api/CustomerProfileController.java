@@ -127,7 +127,7 @@ public class CustomerProfileController {
             )
     })
     @Transactional(readOnly = true)
-    @GetMapping("/")
+    @GetMapping("")
     public ResponseEntity<List<CustomerProfileResponse>> getAll() {
         List<CustomerProfileResponse> all = service.getAll().collect(Collectors.toList());
         return ResponseEntity.ok(all);
