@@ -66,7 +66,7 @@ curl http://localhost:8080/api-docs
 You can access the `customer-profiles` API endpoint using `curl`:
 
 ```bash
-curl -X POST -H 'Content-Type: application/json' http://localhost:8080/api/customer-profiles/ -d '{"firstName": "Joe", "lastName": "Doe", "email": "joe.doe@test.org"}'
+curl -X POST -H 'Content-Type: application/json' http://localhost:8080/api/customer-profiles -d '{"firstName": "Joe", "lastName": "Doe", "email": "joe.doe@test.org"}'
 ```
 
 ### Get customer profile
