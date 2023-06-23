@@ -165,7 +165,7 @@ class CustomerProfileControllerTest {
             when(service.getAll())
                     .thenReturn(Stream.of(new CustomerProfileResponse("customer-profile-id", "Joe", "Doe", "joe.doe@test.org")));
 
-            mockMvc.perform(get("/api/customer-profiles/")
+            mockMvc.perform(get("/api/customer-profiles")
                             .accept(MediaType.APPLICATION_JSON))
                     .andExpect(status().isOk())
                     .andExpect(content().json("[{" +
