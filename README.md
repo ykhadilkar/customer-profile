@@ -53,6 +53,9 @@ Launch application using profile `local`:
 ```
 
 
+
+
+
 ### OpenApi Definition
 
 You can access the API docs using `curl`:
