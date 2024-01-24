@@ -141,6 +141,7 @@ When developing local but would like to deploy the local code to the cluster the
 By using `Tanzu: Apply` on the `workload.yaml` it will create the Workload resource with the local source (pushed to an image registry) as
 starting point.
 
+
 # How to proceed from here?
 Having the application locally running and deployed to a cluster you could add your domain logic, related persistence and new RESTful controller.
 
