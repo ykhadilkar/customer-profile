@@ -5,12 +5,12 @@ metadata:
   description: Backend API Customer CRUD Ops
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://tanzu.vmware.com
       title: Customer API
       icon: dashboard
       type: admin-dashboard
-    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
