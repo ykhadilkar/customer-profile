@@ -2,8 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: customer-profile
+  description: Backend API Customer CRUD Ops
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
+  links:
+    - url: https://tanzu.vmware.com
+      title: Customer API
+      icon: dashboard
+      type: admin-dashboard
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
