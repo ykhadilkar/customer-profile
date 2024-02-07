@@ -17,4 +17,4 @@ spec:
   owner: default-team
   system: customer
   providesApis:
-    - customer-profile
+    - dev/customer-profile-d5d2a018
