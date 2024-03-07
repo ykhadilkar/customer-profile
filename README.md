@@ -144,6 +144,3 @@ starting point.
 
 # How to proceed from here?
 Having the application locally running and deployed to a cluster you could add your domain logic, related persistence and new RESTful controller.
-
-
-
